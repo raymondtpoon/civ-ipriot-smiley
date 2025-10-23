@@ -104,13 +104,13 @@ python3 main.py
 
 5. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
 
-> Your answer here
+> WHITE is an example of a class variable which is defined before the constructor and its a variable shared by all instances of the class meaning that any smiley instances can access any of those variables. Where as instance variable would be self.sense_hat = SenseHat() which are defined inside the constructor, when instances are created they would each have their own unique copy of the instance variable. 
 >
 
 6. Examine `happy.py`, and identify the constructor (initializer) for the `Happy` class:
    1. What is the purpose of a constructor (in general) and this one (in particular)?
 
-   > Your answer here
+   > Purpose of the constructor is to define instance variables by initialising instances
    >
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
