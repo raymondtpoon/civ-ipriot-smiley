@@ -115,19 +115,18 @@ python3 main.py
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
 
-   > Your answer here
-   >
+   >The superclass call inside the constructor allows the Happy class to initialise and use the inherited attributes and behaviours from its parent classes, Smiley and Blinkable, making Happy become a sub class of Smiley.
 
 ### 2.3. Code style
 
 1. What code style is used in the code? Is it likely to be the same as the code style used in the SenseHat? Give to reasons as to why/why not:
 
-> Your answer here
+> PEP8 is used, SenseHat code looks similar to the other files. 
 >
 
 2. List three aspects of this convention you see applied in the code.
 
-> Your answer here
+> Docstrings and hashes are used to explain code. There are line spaces between functions. 
 >
 
 3. Give two examples of organizational documentation in the code.
