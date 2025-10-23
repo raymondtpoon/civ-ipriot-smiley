@@ -73,9 +73,9 @@ python3 main.py
 
    | Type                    | name       | value          |
    | ----------              | ---------- | -------------- |
-   | built-in primitive type | _          |  _             |
-   | built-in composite type | _          |  _             |
-   | user-defined type       | _          |  _             |
+   | built-in primitive type | dimmed     |  true          |
+   | built-in composite type | WHITE      |  255,255,25    |
+   | user-defined type       | def __init__(self):         |  _             |
 
 2. Fill in (`_`) the following table based on the code in `smiley.py`:
 
