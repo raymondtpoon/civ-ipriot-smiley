@@ -55,6 +55,9 @@ Address the following tasks and questions based on the code provided in this rep
 
 ![Local Execution (INSERT YOUR SCREENSHOT)](screenshots/CREATE_A_SCREENSHOT_OF_YOUR_local_setup.png)
 
+<img width="567" height="355" alt="screenshot" src="https://github.com/user-attachments/assets/00137276-285f-4478-a1eb-00810b001bb5" />
+
+
 If you are running on a Raspberry Pi, you can use the following command to run the project and then screenshot the result:
 
 ```bash
