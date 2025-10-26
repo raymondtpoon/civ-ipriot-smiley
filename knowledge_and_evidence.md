@@ -131,10 +131,7 @@ python3 main.py
 
 3. Give two examples of organizational documentation in the code.
 
-> # Single line comments for documentation
-> """
-> Also by using docstrings for documenation
-> """
+> README.md and the LICENSE files
 
 ### 2.4. Identifying and understanding classes
 
