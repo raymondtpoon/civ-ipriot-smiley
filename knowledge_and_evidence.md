@@ -143,8 +143,8 @@ python3 main.py
 
 | Class Name | Super or Sub? | Direct parent(s) |
 | ---------- | ------------- | ---------------- |
-| Smiley     | Super         |      ...         |
-| Blinkable  | Super         |      ...         |
+| Smiley     | Super         | N/A              |
+| Blinkable  | Sub           | ABC              |
 | Happy      | Sub           | Smiley,Blinkable |
 | Sad        | Sub           | Smiley           | 
 
