@@ -164,7 +164,7 @@ Compare and contrast the classes Happy and Sad.
 
 1. What is the key difference between the two classes?
    > The Happy class also inherits Blinkable in addition to Smiley when compared to Sad class.
-   > Pixels are different in mouth list. 
+   > Pixels are different in mouth list in both classes. 
    > 
 2. What are the key similarities?
    > Both Happy and Sad classes inherit abstract methods from the parent class Smiley. 
@@ -174,19 +174,19 @@ Compare and contrast the classes Happy and Sad.
    > The fact that Happy class inherits blinkable as well because its an additional method that doesn't occur in sad. 
    >
 4. How does this difference affect the functionality of these classes
-   > The Happy class ends up behaving with a blink which the Sad class doesn't have. 
+   > The Happy class ends up behaving with a blink which the Sad class doesn't. 
    >
 
 ### 2.6. Where is the Sense(Hat) in the code?
 
 1. Which class(es) utilize the functionality of the SenseHat?
-   > Your answer here
+   > The Smiley class primarily utilises SenseHat. SenseHat functionaility is also used in the sub classes of Smiley such as in Happy and Sad classes but they only do so by inheriting it from Smiley's functionality.
    >
 2. Which of these classes directly interact with the SenseHat functionalities?
-   > Your answer here
+   > Smiley
    >
 3. Discuss the hiding of the SenseHAT in terms of encapsulation (100-200 Words)
-   > Your answer here
+   > Encapsulation refers to hiding the function of how something is done. Between the classes Smiley and SenseHat, the functionalities of SenseHat is hidden when looking at the Smiley class. It restricts direct access to the SenseHat class, although sub classes like Happy and Sad can also use SenseHat functionalities without directly accessing it.
    >
 
 ### 2.7. Sad Smileys Can’t Blink (Or Can They?)
@@ -197,7 +197,7 @@ Unlike the `Happy` smiley, the current implementation of the `Sad` smiley does n
 
 1. Does the code's author believe that every `Smiley` should be able to blink? Explain.
 
-> Your answer here
+> No, there is no function or sub class in Smiley to indicate that the Smiley class should be able to blink.
 >
 
 2. For those smileys that blink, does the author expect them to blink in the same way? Explain.
