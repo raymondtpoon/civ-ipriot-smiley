@@ -197,22 +197,22 @@ Unlike the `Happy` smiley, the current implementation of the `Sad` smiley does n
 
 1. Does the code's author believe that every `Smiley` should be able to blink? Explain.
 
-> No, there is no function or sub class in Smiley to indicate that the Smiley class should be able to blink.
+> No not every Smiley class should be able to blink, although its sub class Happy has inherited the blink behaviour. 
 >
 
 2. For those smileys that blink, does the author expect them to blink in the same way? Explain.
 
-> Your answer here
+> Not necessarily, although the blink method is inherited, the implementation could be different for different Smiley sub classes.
 >
 
 3. Referring to the implementation of blink in the Happy and Sad Smiley classes, give a brief explanation of what polymorphism is.
 
-> Your answer here
+> The Happy and Sad classes inheritted the methods from the parent Smiley class. Happy and Sad classes have the same abstract methods as the Smiley class but can be implemented differently. This is polymorphism, when different classes can respond to the same method call in different ways. 
 >
 
 4. How is inheritance used in the blink method, and why is it important for polymorphism?
 
-> Your answer here
+> With the blink method, inheritance can help the class Happy to reuse or override methods from their parent classes Smiley/Blinkable. This is important for polymorphism as it means that the sub classes such as Happy may have the same methods derived from its parent classes but it can also have different implementation ie different characteristics.
 >
 1. **Implement Blink in Sad Class:**
 
