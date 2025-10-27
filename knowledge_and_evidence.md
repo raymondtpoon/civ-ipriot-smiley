@@ -150,12 +150,12 @@ python3 main.py
 
 2. Explain the concept of abstraction, giving an example from the project (note "implementing an ABC" is **not** in itself an example of abstraction). (Max 150 words)
 
-> Your answer here
+> Abstraction is present in parent classes with their child classes, it shows that the child class has inherited from the parent classes. It shows 'what' something is and not how it does something. The class "blinkable" is abstracting from ABC which is its parent class. It defines what methods exist but not how they are implemented, this is seen in the method def blink, it shows the method blink but not how its implemented. 
 >
 
 3. What is the name of the process of deriving from base classes? What is its purpose in this project? (Max 150 words)
 
-> Your answer here
+> The process of deriving a new class from base classes is called inheritance. The purpose of inheritance is so that new classes can reuse and extend behaviour defined from base classes without duplicating code. For example the blinkable class inherits the same abstract methods from parent class ABC ie blink.
 >
 
 ### 2.5. Compare and contrast classes
@@ -163,16 +163,18 @@ python3 main.py
 Compare and contrast the classes Happy and Sad.
 
 1. What is the key difference between the two classes?
-   > Your answer here
-   >
+   > The Happy class also inherits Blinkable in addition to Smiley when compared to Sad class.
+   > Pixels are different in mouth list. 
+   > 
 2. What are the key similarities?
-   > Your answer here
-   >
+   > Both Happy and Sad classes inherit abstract methods from the parent class Smiley. 
+   > Both have functions for draw_mouth and draw_eyes
+   > 
 3. What difference stands out the most to you and why?
-   > Your answer here
+   > The fact that Happy class inherits blinkable as well because its an additional method that doesn't occur in sad. 
    >
 4. How does this difference affect the functionality of these classes
-   > Your answer here
+   > The Happy class ends up behaving with a blink which the Sad class doesn't have. 
    >
 
 ### 2.6. Where is the Sense(Hat) in the code?
