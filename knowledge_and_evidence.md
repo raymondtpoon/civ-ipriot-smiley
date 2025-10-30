@@ -278,11 +278,12 @@ Include a screenshot of the sad smiley or the modified `main.py`:
         > They are considered to be class variables. Unless different colours are being accessed/called then the colour will remain unchanged, being yellow.
         > 
      3. Add the color blue to the appropriate class using the appropriate format and values.
+        > <img width="516" height="494" alt="image" src="https://github.com/user-attachments/assets/269ecc01-c1aa-4a51-b080-078bea3a6af5" />
 
   2. **Usage of Color Variables:**
 
      1. In which classes are the color variables used?
-        > The Happy class is using the yellow colour variable, the Sad class is using the 'colour' variable blank and yellow. 
+        > The Happy and Sad classes both use the colour variables YELLOW and "BLANK".
 
   3. **Simple Method to Change Colors:**
   4. What is the easiest way you can think to change the smileys to green? Easiest, not necessarily the best!
