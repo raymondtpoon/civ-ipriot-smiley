@@ -230,12 +230,12 @@ Unlike the `Happy` smiley, the current implementation of the `Sad` smiley does n
 - Test the new blink functionality on your Raspberry Pi or within the Python classes provided. You might need to adjust the `main.py` script to incorporate Sad Smiley's new blinking capability.
 
 Include a screenshot of the sad smiley or the modified `main.py`:
+<img width="709" height="659" alt="image" src="https://github.com/user-attachments/assets/cf75e491-6718-4047-9abe-30fcf430e85b" />
 
-![Sad Smiley Blinking](screenshots/sad_blinking.png)
 
 - Observe and document the Sad smiley as it blinks its eyes. Describe any adjustments or issues encountered during implementation.
 
-  > Your answer here
+  > An adjustment made was to incorporate the dim_display again for the Sad Smiley, as it did not come through from the Happy Smiley above.
 
   ### 2.8. If It Walks Like a Duck…
 
