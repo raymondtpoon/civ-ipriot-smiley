@@ -299,6 +299,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
   2. **Refactor subclasses to use the `complexion` method:** Modify any subclass that directly accesses the color variable to instead utilize the new `complexion` method. This ensures that color handling is centralized and can be easily modified in the future.
 
   3. **Determine the applicable Object-Oriented principle:** Consider whether Abstraction, Polymorphism, Inheritance, or Encapsulation best applies to the modifications made in this step.
+  > In reference to the my_complexion method specifically, the OOP that best applies to it would be abstraction. As the method heading is just a name/reference which hides its complexities ie it exposes what it does without exposing how it does it.
 
   4. **Verify the implementation:** Ensure that the modifications function as expected. The smileys should still display in yellow, confirming that the new method correctly replaces the direct color references.
 
