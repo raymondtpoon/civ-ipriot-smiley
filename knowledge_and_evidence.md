@@ -275,7 +275,7 @@ Include a screenshot of the sad smiley or the modified `main.py`:
         > Under the Smiley class, other colours like WHITE, GREEN, RED, YELLOW.
         > 
      2. What type of variables hold these colors? Are the values expected to change during the program's execution? Explain your answer.
-        > They are considered to be class variables. Unless different colours are being accessed/called then the colour will remain unchanged, being yellow.
+        > They are considered to be class variables. Unless different colours are being accessed/called then the colour will remain unchanged, being yellow. The type of variables holding these colours have a float data type, this also means that the data within it is immutable and does not have the ability to have their values changed within it. 
         > 
      3. Add the color blue to the appropriate class using the appropriate format and values.
         > <img width="516" height="494" alt="image" src="https://github.com/user-attachments/assets/269ecc01-c1aa-4a51-b080-078bea3a6af5" />
